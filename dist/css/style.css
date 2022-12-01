@@ -1,0 +1,22 @@
+.no-webp body {
+  background: url("img/cover.jpg") 0 0 no-repeat; }
+
+body {
+  background-color: black;
+}
+
+body span {
+  background: red;
+}
+
+@media (max-width: 768px) {
+  span {
+    font-size: 20px;
+  }
+
+  span {
+    font-weight: bold;
+  }
+}
+
+.webp body { background: url(img/cover.webp) 0 0 no-repeat; }
